@@ -1,4 +1,4 @@
-div{
+.justify{
   background-image: url("avocado.jpg");
   background-repeat: repeat;
   background-position: center;
@@ -14,17 +14,12 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
 }
-footer{
-  background-image: image("avocado.jpg");
-  background-repeat: repeat;
-  background-position: center;
-  border: 2px solid red;
-  margin: 0 auto;
-  width: 700px;
-  height: 200px;
-
-}
 .repeat{
-  height:200px;
-  overflow-y: auto;
+  background-image: url("avocado.jpg");
+  background-repeat: repeat-x;
+  margin: auto;
+  width: 700px;
+  height:300px;
+  border: 2px solid red;
+  border-bottom: 0px;
 }
